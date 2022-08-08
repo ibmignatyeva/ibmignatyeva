@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Salvador, City Of Happiness</title>
+
+    <link rel="link" rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Square+Peg&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      a {
+        color: #339de4;
+      }
+      h1 {
+        text-align: center;
+        font-family: "Square Peg", sans-serif;
+        font-size: 50px;
+        border: 1px solid #1a64d6;
+        color: #ffffcc;
+
+        margin: 0, auto;
+
+        border-radius: 12px;
+        background-color: #108de0;
+      }
+      h2 {
+        text-align: center;
+        font-family: "Playfair Display";
+        font-size: 20px;
+        display: block;
+        line-height: 20px;
+      }
+      body {
+        background: linear-gradient(to bottom right, #99ccff 0%, #ffffcc 78%);
+        margin: 8px;
+        display: block;
+        max-width: fit-content;
+      }
+
+      .city-description {
+        text-align: center;
+        display: block;
+        padding: 20px, 18px;
+        font-size: 19px;
+        font-family: monospace;
+      }
+      .downtown {
+        max-width: 380px;
+        display: block;
+
+        margin: 30px auto;
+        border-radius: 12px;
+      }
+      .learn-more {
+        margin: 24px;
+        line-height: 100px;
+        text-decoration: none;
+        color: #108de0;
+      }
+      .book-now {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        display: block;
+        margin: 25px auto;
+        padding: 22px;
+        border: 1px solid #1a64d6;
+        background: #1a64d6;
+        color: #fff;
+        border-radius: 10px;
+        transition: all 200ms ease-in-out;
+        cursor: pointer;
+        box-shadow: rgba(30, 94, 177, 0.08) 0px 8px 8px 0;
+      }
+      button:hover {
+        background: white;
+        color: #1a64d6;
+        border: 1px solid #1a64d6;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Salvador | Bahia | Brazil</h1>
+      <h2>🎉 The City of <em> Happiness </em> 🎉</h2>
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/042/090/original/conheca-salvador-e-se-apaixone-pela-capital-baiana.jpeg?1659112629 "
+        alt="Mercado Modelo and Elevador Lacerda"
+        class="downtown"
+      />
+      <hr />
+      <p class="city-description">
+        <strong>
+          Salvador , land of joy and magic. One of the most visited tourist
+          destinations in the country by tourists from all corners of the world.
+          With diversified attractions, Salvador has unique characteristics: its
+          architecture; the culture inherited from the ancestors; the customs
+          that are still preserved today and the incomparable joy of the Bahians
+          make Salvador a city that enchants and enthralls its visitors.
+        </strong>
+      </p>
+      <hr />
+
+      <a
+        href=" https://pt.wikipedia.org/wiki/Salvador"
+        target="blank"
+        class="learn-more"
+      >
+        Learn more at Wikipedia
+      </a>
+      <br />
+
+      <button class="book-now">
+        Book a trip to <strong> Salvador </strong> now.
+      </button>
+
+      <script>
+        function bookTrip() {
+          let firstName = prompt("What Is Your First Name?");
+          let email = prompt("What Is your best E-mail?");
+          let h1 = document.querySelector("h1");
+
+          if (firstName.length) {
+            h1.innerHTML =
+              "😎 Thank You" +
+              "  " +
+              firstName +
+              " " +
+              "! We Will Send More Information To You Soon 😎";
+          } else {
+            h1.innerHTML =
+              " 😥 Sorry," +
+              " " +
+              firstName +
+              " " +
+              "This is not a valid name or e-mail😥 ";
+          }
+        }
+        let bookTripButton = document.querySelector("button");
+        bookTripButton.addEventListener("click", bookTrip);
+      </script>
+    </div>
+  </body>
+</html>
