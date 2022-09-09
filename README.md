@@ -1,4 +1,4 @@
-## Bem-vindo(a) ao perfil de Ive Ignatyeva 😁
+## Bem-vindo(a) ao perfil de Ive Ignatyeva (em constante construção!) 😁
 
  <div>
    <a href="https://github.com/ibmignatyeva">
