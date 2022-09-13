@@ -1,4 +1,4 @@
-## Bem-vindo(a) ao perfil de Ive Ignatyeva (em constante construção!) 😁
+## Welcome to Ive's Profile!! (In constant development...) 😁
 
  <div>
    <a href="https://github.com/ibmignatyeva">
@@ -14,7 +14,7 @@
  
  <br>
  
-  ### Você me encontra nos contatos abaixo!
+  ### You can find me on contacts below! ⤵
  
 <div> 
   
