@@ -1,4 +1,4 @@
-## Welcome to Ive's Profile!! (In constant development...) 😁
+## Welcome to Ive's Profile!! (In constant development, since July/22...) 😁
 
  <div>
    <a href="https://github.com/ibmignatyeva">
